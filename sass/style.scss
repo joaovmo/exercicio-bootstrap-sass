@@ -1,0 +1,237 @@
+* {
+  color: white;
+}
+
+.parte1 {
+  background-image: url(../images/home/01.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+  height: 100vh;
+}
+
+#navtext {
+  color: white;
+}
+.secao1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+.parte2 {
+  background-image: url(../images/home/03.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+.parte3 {
+  background-image: url(../images/home/02.gif);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+.parte4 {
+  background-image: url(../images/home/04.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+.footer-home {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+  align-items: center;
+}
+.obcd {
+  color: #555252;
+}
+#linke {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+#linke:hover {
+  color: #e60b0b;
+}
+.setaimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#seta {
+  width: 90px;
+}
+#seta2 {
+  width: 120px;
+}
+.parte5 {
+  background-image: url(../images/falcon9/01.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#falcon9text {
+  font-size: 90px;
+  font-weight: bold;
+}
+.parte6 {
+  background-image: url(../images/falcon9/02.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parte9 {
+  background-image: url(../images/humanFlight/01.jpg);
+  background-position-x: center;
+  
+  background-size: cover;
+}
+.secao9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parte10 {
+  background-image: url(../images/humanFlight/02.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 10vh;
+}
+.parte11 {
+  background-image: url(../images/humanFlight/03.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 10vh;
+}
+.parte12 {
+  background-image: url(../images/humanFlight/04.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 10vh;
+}
+.parte13 {
+  background-image: url(../images/humanFlight/05.jpg);
+  background-position-x: center;
+
+  background-size: cover;
+}
+.secao13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 10vh;
+}
+.navfalcon {
+  background-color: black;
+}
+#textonumeros {
+  font-size: 10vh;
+}
+#subtitulocarrousel {
+  font-size: 30px;
+}
+#titulocarrousel {
+  font-size: 20px;
+}
+.carousel-inner img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+#textohuman {
+  font-size: 13vh;
+  font-weight: 700;
+}
+@media (max-width:500px) {
+  .table {
+    font-size: 2vh;
+    font-weight: bold;
+  }
+  #textohuman {
+    font-size: 7vh;
+  }
+}
+.carousel-caption {
+  width: 80vh;
+  height: 60vh;
+}
+@media (max-width:500px) {
+  .carousel-caption {
+    font-size: 2vh;
+    width: 40vh;
+  }
+}
+@media (max-width:500px) {
+  #falcon9text {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
